@@ -1,0 +1,44 @@
+.second p{
+   
+    font-weight: 500;
+    font-size: 16px;
+    margin: 5px;
+    margin-right: 10PX;
+ 
+}
+.second i{
+    background-color: #E9EAEA ;
+    width: 32px;
+    height: 32px;
+    border-radius: 8%;
+}
+.second i:hover{
+    background-color: #000;
+    color: #E9EAEA;
+    cursor: pointer;
+}
+
+.frist{
+    background-color: #fff ;
+    border: 1px solid rgba(233, 234, 234, 1);
+    width: 78px;
+    height: 34px;
+    border-radius: 8%;
+}
+.frist:hover{
+    background-color: rgba(0, 0, 0, 1) ;
+    color: #fff;
+    cursor: pointer;
+}
+.frist p {
+    width: 400;
+    font-size: 14px;
+    line-height: 28px;
+
+}
+.frist  i{
+    width: 18px;
+    height: 18px;
+    color: rgba(138, 116, 249, 1) ;
+    margin-top: 5px;
+}

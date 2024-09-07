@@ -1,0 +1,128 @@
+.card{
+    
+    background-color: rgba(138, 116, 249, 1);
+    height: 415px;
+    
+}
+.card p{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 16.8px;
+
+}
+.card-link{
+    width: 226.2px;
+    height: 42.8px;
+    background-color: white;
+    border-radius: 8.32px;
+    margin: 0 auto;
+    border: 0.38px solid rgba(221, 221, 221, 1);
+}
+.card-link:hover{
+    cursor: pointer;
+}
+.col-md-10 .tex{
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.35px;
+    
+   
+}
+.card-link p{
+    color:#000 ;
+}
+.card-link i{
+    color: rgba(138, 116, 249, 1);
+    cursor: pointer;
+}
+
+.trash-text{
+    position: relative;
+    left: 10px;
+    width: 36.9px;
+    height: 30px;
+    border-radius: 6.45px;
+    background-color: rgba(30, 27, 57, 1);
+    padding-left: 45px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+.trash-text::after{
+    content: "";
+    
+    position: absolute;
+    width: 20px;
+    height:20px;
+    border-left: 0px solid  rgba(30, 27, 57, 1);
+    border-top: 1px solid rgba(30, 27, 57, 1);
+    border-bottom: 0px solid rgba(30, 27, 57, 1);
+    border-right: 1px solid rgba(30, 27, 57, 1);
+    transform: rotate(45deg);
+    background-color: rgba(30, 27, 57, 1) ;  
+}
+.trash-text p{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 16.8px;
+   position: absolute;
+   left: 25px;
+   top: 5px;
+    z-index: 9999999999999;
+}
+.line{
+    border: 1px dashed rgba(243, 245, 247, 1) ;
+    width: 100%;
+    height: 1px;
+    margin-top: 15px;
+   
+}
+.line_radius{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgba(243, 245, 247, 1);
+    margin-right: -10px;
+   
+
+}
+.line_radius1{
+    width: 25px;
+    height:25px;
+    border-radius: 50%;
+    background-color: rgba(243, 245, 247, 1);
+    margin-left: -10px;
+   
+}
+qrcode{
+    cursor: pointer;
+}
+.sharing  h6{
+   width: 70px;
+   height: 24px;
+   padding: 4px 6px; 
+   border: 1px solid rgba(255, 255, 255, 1);
+   border-radius: 4px;
+   color: #fff;
+   line-height: 14.4px;
+   cursor: pointer;
+}
+.sharing  h6:hover{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(138, 116, 249, 1);
+}
+.d-flex .text-end{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.6px;
+    cursor: pointer;
+}
+.del i:hover{
+    cursor: pointer;
+     color: #1e1b39 !important ;  
+
+}

@@ -1,0 +1,86 @@
+
+  <div class="row m-auto">
+    <div class="col-md-8">
+      <div class="search-right d-flex  ">
+        <div >
+          <p>مبيعات التذاكر</p>
+        </div>
+        <div class="d-flex">
+          <input class="my-3" type="search" placeholder="بحث عني...">
+          <div class="d-flex">
+            <i class="fa-solid fa-right-left "></i>
+          <i class="fa-solid fa-arrow-down-up-across-line"></i>
+          </div>
+          
+    
+        </div>
+       
+    
+    
+        
+      </div>
+
+    </div><!--/col-->
+    <div class="col-md-4 my-3 ">
+      <div class="search-left d-flex  ">
+        <div class="card flex justify-content-center ms-2">
+          <p-inputSwitch [(ngModel)]="checked" />
+      </div>
+      <div>
+        <p class="my-3 mx-1" >مفعله</p>
+      </div>
+      <div class="me-3">
+        <h6>حجزه تذكره جديدة</h6>
+      </div>
+    
+      </div>
+       
+
+    </div><!--/col-->
+  </div><!--/row-->
+
+
+<div class="card w-100 mt-3">
+    <p-table [value]="products"
+    #dt
+    
+    dataKey="id"
+    [rowHover]="true"
+    [rows]="4"
+    [showCurrentPageReport]="true"
+    [paginator]="true"
+    currentPageReportTemplate="عرض  20 من اصل 250"
+    >
+   
+      <ng-template pTemplate="header">
+        <tr>
+          
+      
+          <th>#</th>
+          <th>المستخدم</th>
+          <th>رقم التذكره</th>
+          <th>قيمي التذاكره</th>
+          <th>السينمات</th>
+          <th>عدد الاشخاص</th>
+          <th>عدد مرات الشراء</th>
+          <th>التذكره</th>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-product  >
+        <tr>
+          <td>{{product.code}}</td>
+          <td><img [src]="product.name" alt="Product Image" style="width: 100px;" /></td>
+          <td>{{product.category}}</td>
+          <td>{{product.price}}</td>
+          <td>{{product.climal}}</td>
+          <td>{{product.count}}</td>
+          <td>{{product.buy}}</td>
+          <td class="d-flex">
+            <p class="mx-2">تذكره رقم 45.bdf</p>
+            <i (click)="downloadFile()" class="fa-solid fa-download my-3"></i>
+          </td>
+        </tr>
+      </ng-template>
+    </p-table>
+   
+  </div>

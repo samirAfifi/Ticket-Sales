@@ -1,0 +1,89 @@
+.chart{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.chart-content-bottom h6{
+    margin: 25px 10px 0px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 12.8px;
+    color:rgba(28, 28, 40, 1);
+}
+.chart-bottom {
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12.35px;
+    color: rgb(153, 161, 183);
+  
+}
+.chart-content-right{
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 1px solid rgba(232, 232, 232, 1);
+    border-radius: 8px;
+    cursor: pointer;
+   padding: 0px 20px;
+
+}
+.chart-content-right:hover{
+    background-color: rgba(232, 232, 232, 1);
+
+}
+.years p{
+    font-weight: 400;
+    font-size: 12.11px;
+    line-height: 14.96px;
+    color: rgba(28, 28, 40, 1);
+    margin-top: 5px;
+}
+.years i{
+    margin-left: 5px;
+    margin-top: 10px;
+    color: rgb(196, 196, 196)      ;
+    font-size: 11px;
+}
+.used{
+    position: absolute;
+    top: 27%;
+    right: 65%;
+}
+.usedData{
+    position: relative;
+    background: rgba(30, 27, 57, 1);
+    border-radius: 8.32px;
+    padding: 0px 15px;
+
+}
+.usedData p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12.11px;
+    text-align: center;
+    color: rgb(229, 229, 239);
+}
+.usedData h6{
+    font-weight: 500;
+    font-size: 8.07px;
+    line-height: 12.9px;
+    color: rgb(138, 116, 249);
+    z-index: 9999999999;
+}
+.usedData::after{
+    content: "";
+    
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    width: 20px;
+    height:20px;
+    border-left: 1px solid  rgba(30, 27, 57, 1);
+    border-top: 1px solid rgba(30, 27, 57, 1);
+    border-bottom: 1px solid rgba(30, 27, 57, 1);
+    border-right: 0px solid rgba(30, 27, 57, 1);
+    transform: rotate(45deg);
+    background-color: rgba(30, 27, 57, 1) ;  
+}
+
+
+
